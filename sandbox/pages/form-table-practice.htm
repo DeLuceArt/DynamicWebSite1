@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+	template.htm
+	Copyright (c) 2019 by Peter David DeLuce
+	All Rights Reserved
+	
+	A website assignment using Bootstrap 4.1.3
+	for course WEB125, HTML & CSS, at
+	HACC - Central Pennsylvania's Community College
+	Professor Carl R. Petersheim, M.S.
+-->
+
+<head>
+	<title>DeLuce Art Gallery - Contact Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Bootstrap v4.1.3 Latest compiled and minified CSS -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!-- Bootstrap v4.1.3 Complete JavaScript -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap v4.1.3 Complete JavaScript Bundle -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="../styles/template.css">
+	<link rel="stylesheet" href="../styles/overrides.css">
+</head>
+
+<body>
+	<div class="container-fluid"> <!-- Corresponds to <main> tag in HTML5 -->
+	
+		<div class="row"> <!-- row 1, 1x12 cols wide, like header in HTML5 --> 
+			<div class="col-sm-12">
+				<h1>DeLuce Art Gallery - Contact Page</h1>
+                <p><i>Painting the Universe 1 Star at a Time</i></p>
+			</div>
+		</div> <!-- end row 1 -->
+	
+		<nav class="navbar navbar-default">
+			<div class="container-fluid"> <!-- nested -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#"><img src = "../images/deluceartlogo.png" width="400" height ="175"></a>
+				</div> <!-- end navbar-header" -->
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">DeLuce Art</a></li>
+                    <li><a href="#">Online Orders</a></li>
+					<ul>
+                        <li><a href="#">Prints</a></li>
+					   <li><a href="#">Paintings</a></li>
+                    </ul>
+					<li><a href="#">Galleries</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div> <!-- end nested container-fluid -->
+		</nav>
+			
+		<div class="row"> <!-- row 2, 3x4 cols wide, like HMTL5 section -->
+			<div class="col-sm-4"> <!-- left column, like HTML5 article -->
+				<h2>Collaborations</h2>
+				<p>Topic introduction for the page. Use a photo or illustration here to support the topic. Ideas to use could be,
+                explain what etsy is and detail the signed matte prints. Over on the right then, explain redbubble as the second best places to find my artwork for sale and all of the available items.
+                </p>
+                <p>This is the required second paragraph. Make sure there is an image because that is required too. Disregard what is typed in for the right colomn currently, I need to add the redbubble conent still.</p>
+                <br><br><br>
+				<p><img src="../images/happy-astronaut-504.jpg" class="leftImg"></p>
+			</div> <!-- end left column -->
+			<div class="col-sm-4"> <!-- middle column, like HTML5 article -->
+				<h2>Contact Form</h2>
+                <form action="mailto:pdd56459@hawkmail.edu?subject=My Preferences">
+    <fieldset>
+        <legend>Information</legend>
+        Given Name...<br>
+        <input type="text" name="gName" id="gName" value=""><br>
+        Middle Name...<br>
+        <input type="text" name="mName" id="mName" value=""><br>
+        Family Name...<br>
+        <input type="text" name="famName" id="famName" value=""><br>
+    </fieldset>
+    <fieldset>
+        <legend>Demographic Information</legend>
+                <table style="width:75%;">  
+                <thead>
+                <tr class="tableShadow" style="width:100%;text-align:">
+                    <th>Gender...</th>
+                    <th>Ice Cream...</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><input type="radio" name="gender" id="mFolks" value="M">
+        <label for="mFolks">Male</label></td>
+                    <td><input type="checkbox" name="iceCream" id="CM" value="M">
+        <label for="chunk">Chunky Monkey</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="gender" id="fFolks" value="F">
+        <label for="fFolks">Female</label></td>
+                    <td><input type="checkbox" name="iceCream" id="PF" value="F">
+        <label for="phish">Phishfood</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="gender" id="uFolks" value="U">
+        <label for="uFolks">Unlisted</label><br></td>
+                    <td><input type="checkbox" name="iceCream" id="CG" value="U">
+        <label for="cherry">Cherry Garcia</label></td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Copyright &#169; 2019 </td>
+                        <td>By: Peter DeLuce</td>
+                    </tr>
+                </tfoot>
+                </table>
+            <br>
+        <h3>Age...</h3>
+        <select name="age" multiple>
+            <option value="error" disabled>How Old are You?</option>
+            <option value="0020" selected>0-20 years</option>
+            <option value="2130">21-30 years</option>
+            <option value="3140">31-40 years</option>
+            <option value="4150">41-50 years</option>
+            <option value="5160">51-60 years</option>
+            <option value="">Old Age</option>
+        </select>
+        <br><br>
+        <h3>Comments</h3>
+        <textarea name="comments" rows="8" style="width:100%;">Type your ranting and raving and bitching and moaning here.
+        </textarea>
+    </fieldset>
+                    <br>
+    <fieldset>
+        <legend style="text-align: center;">Review and Submit</legend>
+        <table style="text-align:center;border-collapse:separate;border-spacing:25px;border-">
+            <tr>
+                <td><img src="../images/tile.gif" style="width:40px;height:10px; visibility: hidden">
+                    <input type="button" onclick="alert('Hello Planet!')" value="Click Here"></td>
+                
+                <td><img src="../images/tile.gif" style="width:40px;height:10px; visibility: hidden">
+                    <input type="reset" value="Clear Form"></td>
+                <td><img src="../images/tile.gif" style="width:40px;height:10px; visibility: hidden">
+                    <input type="submit" value="Place Order"></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+                <p><img src="../images/hawking-504.png" class="centerImg"></p><br>
+			</div> <!-- end middle column -->
+			<div class="col-sm-4"> <!-- right column, like HTML5 article -->
+				<h2>Commission Work</h2>
+				<p>Use this column to expand on or summarize the topic of the page and include a photo or image to support the topic.</p>
+                <p>Same thing as the left colomn, this side requires 2 paragraphs and an image to support the topic. All of these are 504x504px dimensions. In hindsight this site project might not be what I need for my portfolio page and will likely be a starting template for my actual webpage.</p>
+                <br><br><br><br>
+				<p><img src="../images/kid-cudi-504.jpg" class="rightImg"></p>
+			</div> <!-- end right column -->
+		</div> <!-- end row 2 -->
+				
+		<div class="row"> <!-- row 3, 1x12 cols wide, like header in HTML5 --> 
+			<div class="col-sm-12">
+				<h3>Row 3 - Footer</h3>
+				<p>Footer Content</p>
+			</div>
+		</div> <!-- end row 3 -->
+		
+	</div> <!-- end container-fluid -->
+</body>
+
+</html>

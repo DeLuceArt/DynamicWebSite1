@@ -1,0 +1,115 @@
+<html>
+<!--    WEB125 Sampler Page - Spring 2019 - Submit on Deadline 1 of 3 on February 19
+
+        This is a multiline comment, used to annotate your HTML code.
+        Use Adobe Brackets to create this page and indent exxactly as shown,
+        In Adobe Brackets tags are not blue, attributes are medium grey, values are red.
+        Literal text, which the user sees, is shown in black.
+-->
+<!-- This is a single linr comment -->
+
+<head>
+    <title>WEB 125 Sampler Page</title>
+    <link rel="stylesheet" href="../styles/overrides.css">
+</head>
+
+<body>
+    <main> <!-- The main tag replaces "container" divs in previous HTML versions -->
+        <header>
+            <h1>Header are, enclosing an h1 heading</h1>
+            <h3>Often an h3 tag would be used for a subheading in this area</h3>
+        </header>
+        <hr> <!-- This is a horizontal rule and is used here to seperate selections
+        -->
+        <selection>
+            <article>
+                <h2>First article, often the left column, enclosing an h2
+                heading</h2>
+                <p>A p element, or paragraph, often follows a heading such as h1,
+                h2, h3, h4, h5, and h6...the six heading sizes from large to small.
+                When you're first scripting a Web page in html, it's often
+                convienient to use "Lorem Ispum", or greeking, as a text placeholder 
+                until you know the real content.<p>
+                <p>This second paragraph within the first article will demonstrate
+                how to "interrupt" a paragraph with a new line using the br tag.
+                It's often used if you want to contain a long text string, such as 
+                <br>HACC, Central Pennsylvania's COmmunity COllege<br>on one
+                line.</p>
+            </article>
+            <article>
+                <h2>Second article, often the middle column on a desktop PC 
+                layout</h2>
+                <p>In responsive design, this second article is often used as the
+                middle column on a desktop layout; when the sceen is narrower, 
+                this article will wrap under the first article on a tablet or
+                smartphone layout.</p>
+                <p>All three articles are contained with the first "section" of the
+                page. The <code>section</code> tag is one of the new semantic tags
+                in HTML5; this means they have significance in the logical
+                structure of the page..not just for formatting.</p>
+            </article>
+            <article>
+                <h2>Third article, often the right column on a desktop PC layout</h2>
+                <p>In responsive design, this third article is often used as the
+                right column on a desktop layout; when the sceen is narrower, this 
+                article will wrap under the first and second articles on a tablet or
+                smartphone layout.</p>
+                <p>Two great places to find greeking are <a
+                href="http://www.blindtextgenerator.com/lorem-ipsum"
+                target="_blank">Blind Text Generator</a> and <a
+                href="https://baconispsum.com/" target="_blank">Bacon Ispum - A
+                Meatier Lorem Ipsum Generator</a>. In this paragraph's HTML you can 
+                see examples of the <code>a</code> (ancor) tag for links, its
+                <code>href</code> attribute (hypertext reference), and its
+                <code>target</code> attribute to open pairs of code tag, which is used to
+                display text in the browser's "monospace" typeface which is usually
+                Courier New on a <i>Windows</i>machine.</p>
+            </article>
+        </section>
+        
+        <hr>
+        
+        <h1>An H1 Heading</h1>
+        <h2>An H2 Heading</h2>
+        <h3>An H3 Heading</h3>
+        <h4>An H4 Heading</h4>
+        <h5>An H5 Heading</h5>
+        <h6>An H6 Heading</h6>
+        
+        <h2>An Unordered List</h2>
+        
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+            <li>List Item 5</li>
+        </ul>
+        
+        <h2>An Ordered List</h2>
+        
+        <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+            <li>List Item 5</li>
+        </ol>
+        
+        <h2>A Nested Ordered List - Outline</h2>
+        
+        <ol type="I">
+            <li>Major Topic 1</li>
+                <ol type="A">
+                    <li>Sub Topic 1</li>
+                        <ol type="1">
+                            <li>Minor Topic 1</li>
+                            <li>Minor Topic 2</li>
+                            <li>Minor Topic 3</li>
+                        </ol>
+                    <li>Sub Topic 2</li>
+                    <li>Sub Topic 3</li>
+                </ol>
+            <li>Major Topic 2</li>
+            <li>Major Topic 3</li>
+        </ol>

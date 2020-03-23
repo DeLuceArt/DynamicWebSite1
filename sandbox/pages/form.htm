@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+	template.htm
+	Copyright (c) 2019 by Peter David DeLuce
+	All Rights Reserved
+	
+	A website assignment using Bootstrap 4.1.3
+	for course WEB125, HTML & CSS, at
+	HACC - Central Pennsylvania's Community College
+	Professor Carl R. Petersheim, M.S.
+-->
+
+<head>
+	<title>DeLuce Art</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!--<link rel="stylesheet" href="../styles/template.css">-->
+        <link rel="stylesheet" href="../styles/navbar.css">
+        <link rel="stylesheet" href="../styles/overrides.css">
+        </head>
+        <body> 
+            <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+                <a class="navbar-brand"><img src="../images/deluceartlogo.png" style="height:inherit; width:auto; padding:5px"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul style="font-size: 1.5em;" class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">&nbsp;Home</a>
+                        </li>
+                            <li class="dropdown" class="dropdown" class="dropdown" class="dropdown"><a href="g" class="nav-link dropdown-toggle" data-toggle="dropdown">&nbsp;Galleries <b class="caret"></b></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="d">Digital Painting</a>
+                                </li>
+                                <li><a href="t">Traditional Painting</a>
+                                </li>
+                                <li><a href="i">Installation Art</a>
+                                </li>
+                                <div class="dropdown-divider"></div>
+                                <li><a href="aa">All Art</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" class="dropdown" class="dropdown"><a href="v" class="nav-link dropdown-toggle" data-toggle="dropdown">&nbsp;Orders <b class="caret"></b></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="p2">Paintings</a>
+                                </li>
+                                <li><a href="p">Prints</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" class="dropdown"><a href="t" class="nav-link dropdown-toggle" data-toggle="dropdown">&nbsp;About <b class="caret"></b></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="b">Blog</a>
+                                </li>
+                                <li><a href="/contact">Contact Us</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <br>
+        <div class="backdrop">
+            <br>
+            <h1>Painting Order Form</h1>
+            <br>
+		<div class="row"> <!-- row 2, 3x4 cols wide, like HMTL5 section -->
+            <div class="col-sm-4"> <!-- left column, like HTML5 article -->
+                <h2>Collaborations</h2>
+				<p>Topic introduction for the page. Use a photo or illustration here to support the topic. Ideas to use could be,
+                explain what etsy is and detail the signed matte prints. Over on the right then, explain redbubble as the second best places to find my artwork for sale and all of the available items.
+                </p>
+                <p>This is the required second paragraph. Make sure there is an image because that is required too. Disregard what is typed in for the right colomn currently, I need to add the redbubble conent still.</p>
+                <br>
+				<p><img src="../images/swimmer-oil-painting-504.jpg" class="img-fluid"></p>
+			</div> <!-- end left column -->
+			<div class="col-sm-4"> <!-- middle column, like HTML5 article -->
+				<h2>Contact Form</h2>
+                <form action="mailto:x@y.com?subject=My Preferences">
+    <fieldset>
+        <legend>Contact Information</legend>
+        Given Name...<br>
+        <input type="text" name="gName" id="gName" value=""><br>
+        Middle Name...<br>
+        <input type="text" name="mName" id="mName" value=""><br>
+        Family Name...<br>
+        <input type="text" name="famName" id="famName" value=""><br>
+    </fieldset>
+    <fieldset>
+        <legend>Demographic Information</legend>
+        Gender...<br>
+        <input type="radio" name="gender" id="mFolks" value="M">
+        <label for="mFolks">Male</label><br>
+        <input type="radio" name="gender" id="fFolks" value="F">
+        <label for="fFolks">Female</label><br>
+        <input type="radio" name="gender" id="uFolks" value="U">
+        <label for="uFolks">Unlisted</label><br>
+        Favorite Ice Cream...<br>
+        <input type="checkbox" name="iceCream" id="CM" value="M">
+        <label for="chunk">Chunky Monkey</label><br>
+        <input type="checkbox" name="iceCream" id="PF" value="F">
+        <label for="phish">Phishfood</label><br>
+        <input type="checkbox" name="iceCream" id="CG" value="U">
+        <label for="cherry">Cherry Garcia</label><br>
+        <h3>Age...</h3>
+        <select name="age" multiple>
+            <option value="">How Old are You?</option>
+            <option value="0020">0-20 years</option>
+            <option value="2130">21-30 years</option>
+            <option value="3140">31-40 years</option>
+            <option value="4150">41-50 years</option>
+            <option value="5160">51-60 years</option>
+            <option value="">Old Age</option>
+        </select>
+        <h3>Comments</h3>
+        <textarea name="comments" rows="10" cols="30">Type your ranting and raving and moaning here.
+        </textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Contact Us</legend>
+        <input type="button" onclick="alert('Hello Planet!')" value="Click Here"><br>
+        <input type="reset" value="Clear Form"><br>
+        <input type="submit" value="Place Order"><br>
+    </fieldset>
+</form>
+                <p><img src="../images/hawking-504.png" class="img-fluid"></p>
+			</div> <!-- end middle column -->
+			<div class="col-sm-4"> <!-- right column, like HTML5 article -->
+				<h2>Commission Work</h2>
+				<p>Use this column to expand on or summarize the topic of the page and include a photo or image to support the topic.</p>
+                <p>Same thing as the left colomn, this side requires 2 paragraphs and an image to support the topic. All of these are 504x504px dimensions. In hindsight this site project might not be what I need for my portfolio page and will likely be a starting template for my actual webpage.</p>
+                <br>
+				<p><img src="../images/perception-cosmonaut-504.jpg" class="img-fluid"></p>
+			</div> <!-- end right column -->
+		</div> <!-- end row 2 -->
+				
+		<div class="row"> <!-- row 3, 1x12 cols wide, like header in HTML5 -->
+        </div>
+			<div class="col-sm-12">
+				<h3>Row 3 - Footer</h3>
+				<p>Footer Content</p>
+			</div>
+		</div> <!-- end row 3 -->
+		
+	</div> <!-- end container-fluid -->
+</body>
+
+</html>

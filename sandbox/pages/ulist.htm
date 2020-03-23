@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+	template.htm
+	Copyright (c) 2019 by Peter David DeLuce
+	All Rights Reserved
+	
+	A website assignment using Bootstrap 4.1.3
+	for course WEB125, HTML & CSS, at
+	HACC - Central Pennsylvania's Community College
+	Professor Carl R. Petersheim, M.S.
+-->
+
+<head>
+	<title>DeLuce Art Gallery - Home Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Bootstrap v4.1.3 Latest compiled and minified CSS -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!-- Bootstrap v4.1.3 Complete JavaScript -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap v4.1.3 Complete JavaScript Bundle -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="../styles/template.css">
+	<link rel="stylesheet" href="../styles/overrides.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+</head>
+
+<body>
+	<div class="container-fluid"> <!-- Corresponds to <main> tag in HTML5 -->
+	
+		<div class="row"> <!-- row 1, 1x12 cols wide, like header in HTML5 --> 
+			<div class="col-sm-12">
+				<h1>DeLuce Art Gallery - Home Page</h1>
+                <p><i>Painting the Universe 1 Star at a Time</i></p>
+			</div>
+		</div> <!-- end row 1 -->
+	
+		<nav class="navbar navbar-default">
+			<div class="container-fluid"> <!-- nested -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#"><img src = "../images/deluceartlogo.png" width="400" height ="175"></a>
+				</div> <!-- end navbar-header" -->
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">DeLuce Art</a></li>
+                    <li><a href="#">Online Orders</a></li>
+					<ul>
+                        <li><a href="#">Prints</a></li>
+					   <li><a href="#">Paintings</a></li>
+                    </ul>
+					<li><a href="#">Galleries</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div> <!-- end nested container-fluid -->
+		</nav>
+			
+		<div class="row"> <!-- row 2, 3x4 cols wide, like HMTL5 section -->
+			<div class="col-sm-4"> <!-- left column, like HTML5 article -->
+				<h2>Available Paintings</h2>
+				<p>Topic introduction for the page. Use a photo or illustration here to support the topic. Ideas to use could be,
+                explain what etsy is and detail the signed matte prints. Over on the right then, explain redbubble as the second best places to find my artwork for sale and all of the available items.
+                </p>
+                <p>This is the required second paragraph. Make sure there is an image because that is required too. Disregard what is typed in for the right colomn currently, I need to add the redbubble conent still.</p>
+                <br><br><br><br>
+				<p><img src="../images/intuition-cosmonaut-504.jpg"></p>
+			</div> <!-- end left column -->
+			<div class="col-sm-4"> <!-- middle column, like HTML5 article -->
+				<h2>Commissioning Work</h2>
+                <p>My traditional paintings will always be unique and original becuase I never paint the same thing twice. Below is a list of mediums, subjects, and general themes I can be commissioned to create. Other styles will be considered if you would like to discuss something not listed.</p>
+                    <br>
+                    <ul style="list-style-image: url('../images/deluceartlogoicon.png')">
+                        <li>Portraiture</li>
+                        <li>Landscapes</li>
+                        <li>Comic Imagery</li>
+                        <li>Athlete Paintings</li>
+                        <li>Science Illustrations</li>
+                    </ul>
+                <p><img src="../images/perception-cosmonaut-504.jpg"></p>
+			</div> <!-- end middle column -->
+			<div class="col-sm-4"> <!-- right column, like HTML5 article -->
+				<h2>Print on Demand</h2>
+				<p>Use this column to expand on or summarize the topic of the page and include a photo or image to support the topic.</p>
+                <p>Same thing as the left colomn, this side requires 2 paragraphs and an image to support the topic. All of these are 504x504px dimensions. In hindsight this site project might not be what I need for my portfolio page and will likely be a starting template for my actual webpage.</p>
+                <br><br><br><br><br>
+				<p><img src="../images/swimmer-oil-painting-504.jpg"></p>
+			</div> <!-- end right column -->
+		</div> <!-- end row 2 -->
+				
+		<div class="row"> <!-- row 3, 1x12 cols wide, like header in HTML5 --> 
+			<div class="col-sm-12">
+				<h3>Row 3 - Footer</h3>
+				<p>Footer Content</p>
+			</div>
+		</div> <!-- end row 3 -->
+		
+	</div> <!-- end container-fluid -->
+</body>
+
+</html>

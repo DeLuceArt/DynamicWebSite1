@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DeLuce Art - Form</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!--<link rel="stylesheet" href="../styles/template.css">-->
+        <link rel="stylesheet" href="../styles/navbar.css">
+        <link rel="stylesheet" href="../styles/overrides.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+	<nav class="navbar navbar-expand-lg navbar-dark">
+		<div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+			<ul class="navbar-nav ml-auto text-center">
+				<li class="nav-item active">
+					<a class="nav-link" href="../index.htm">Home</a>
+				</li>
+				<li class="dropdown"><a href="g" class="nav-link dropdown-toggle" data-toggle="dropdown">&nbsp;Galleries <b class="caret"></b></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="gallery_digital.htm">Digital Painting</a>
+						</li>
+						<li><a href="gallery_traditional.htm">Traditional Painting</a>
+						</li>
+						<li><a href="video.htm">Installation Art</a>
+						</li>
+							<div class="dropdown-divider"></div>
+						<li><a href="gallery.htm">All Art</a>
+						</li>
+						<li><a href="table.htm"> Art Chart</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="mx-auto my-2 order-0 order-md-1 position-relative">
+			<a class="mx-auto" href="#">
+				<img src="../images/logo_small.png" style="height:4.5em;">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
+		<div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+			<ul class="navbar-nav mr-auto text-center">
+				<li class="dropdown"><a href="v" class="nav-link dropdown-toggle" data-toggle="dropdown">&nbsp;Orders <b class="caret"></b></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="ulist.htm">Paintings</a>
+						</li>
+						<li><a href="olist.htm">Prints</a>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown"><a href="t" class="nav-link dropdown-toggle" data-toggle="dropdown">&nbsp;About <b class="caret"></b></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="about.htm">About</a>
+						</li>
+						<li><a href="form.htm">Contact Us</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+        <div class="backdrop">
+            <br>
+            <h1>Painting Order Form</h1>
+            <hr>
+		<div class="row"> <!-- row 2, 3x4 cols wide, like HMTL5 section -->
+            <div class="col-sm-4"> <!-- left column, like HTML5 article -->
+                <h2>Collaborations</h2>
+              <p style="text-align: left;text-indent: 50px;">If you are interested in collaborating with Peter DeLuce or DeLuce Art, please fill out the contact form on this page. Leave your name, email, &nbsp;desired mediums, and a brief message. You will typically recieve a response back within 3-5 buisnessdays.</p>
+                <p style="text-align: left;text-indent: 50px;">The demographic information is optional to input and is primarily there for research purposes. If you would like to have a more detailed conversation about a commission, you can try reaching out to Peter on social media. His inbox can fill up quickly on days he posts his artwork though so to guarentee he sees your message, this is the best place to contact him.</p>
+                <br>
+				<p><img src="../images/elon-musk-starman-spacex-504.png" class="img-fluid"></p>
+			</div> <!-- end left column -->
+			<div class="col-sm-4"> <!-- middle column, like HTML5 article -->
+				<h2>Contact Form</h2>
+                <form action="mailto:x@y.com?subject=My Preferences">
+                <br>
+    <fieldset>
+        <legend>Your Name</legend>
+        Given Name...<br>
+        <input type="text" name="gName" id="gName" value=""><br>
+        Middle Name...<br>
+        <input type="text" name="mName" id="mName" value=""><br>
+        Family Name...<br>
+        <input type="text" name="famName" id="famName" value=""><br>
+        Email Address...<br>
+        <input type="text" name="famName" id="emailName" value=""><br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Demographic Information</legend>
+        Gender...<br>
+        <input type="radio" name="gender" id="mFolks" value="M">
+        <label for="mFolks">Male</label><br>
+        <input type="radio" name="gender" id="fFolks" value="F">
+        <label for="fFolks">Female</label><br>
+        <input type="radio" name="gender" id="uFolks" value="U">
+        <label for="uFolks">Unlisted</label>
+        <br>
+        Age...<br>
+        <select name="age" multiple>
+            <option value="">How Old are You?</option>
+            <option value="0020">0-20 years</option>
+            <option value="2130">21-30 years</option>
+            <option value="3140">31-40 years</option>
+            <option value="4150">41-50 years</option>
+            <option value="5160">51-60 years</option>
+            <option value="">Old Age</option>
+        </select><br><br>
+        <legend>Desired Medium(s)</legend><br>
+        <input type="checkbox" name="digitalPaint" id="CM" value="M">
+        <label for="chunk">Digtial Paint</label><br>
+        <input type="checkbox" name="oilPaint" id="PF" value="F">
+        <label for="phish">Oil Paint</label><br>
+        <input type="checkbox" name="acrylicPaint" id="CG" value="U">
+        <label for="cherry">Acrylic Paint</label>
+        <br>
+        <br>
+        <legend>Message</legend>
+        <textarea name="comments" rows="10" cols="30">Describe your commission idea...
+        </textarea>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Contact Us</legend>
+        <input type="button" onclick="alert('Hello Planet!')" value="Click Here" style="margin-bottom: 10px;background-color: rgba(105,105,205,1);color:rgba(255,255,255,1);width:70%;font-size: larger; border: 0; box-shadow: none;">
+        <br>
+        <input type="reset" value="Clear Form" style="margin-bottom: 10px;background-color: rgba(105,105,205,1);color:rgba(255,255,255,1);width:70%;font-size: larger; border: 0; box-shadow: none;">
+        <br>
+        <input type="submit" value="Place Order" style="margin-bottom: 10px;background-color: rgba(105,105,205,1);color:rgba(255,255,255,1);width:70%;font-size: larger; border: 0; box-shadow: none;">
+        <br>
+    </fieldset>
+</form>
+               <br>
+                <p><img src="../images/deluceartlogo.png" class="img-fluid"></p>
+			</div> <!-- end middle column -->
+			<div class="col-sm-4"> <!-- right column, like HTML5 article -->
+				<h2>Commission Work</h2>
+			  <p  style="text-align: left;text-indent: 50px;">Peter does not typically take commission requests, but for the time being he is open to doing them. Generally his work centers around space, science, or athletics. Should your commission be something starkly different, he may not accept.</p>
+				<p style="text-align: left;text-indent: 50px;">Make sure to include as much detail as you can and include your prefered price range. Peter typically charges by the hour for a project, but the final price is also determined by the cost of materials and the urgency of the project's completion date. Shipping addresses will also be factored in depending on the medium requested.</p>
+				<br>
+				<p><img src="../images/van-gogh-bot-504.png" class="img-fluid"></p>
+			</div> <!-- end right column -->
+		</div>
+		</div>
+<footer>
+ <div class="container">
+   <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-4 col-xs-12">
+                <ul class="address">
+                  <span>Address</span>
+                  <li><p>1739 Tenby Drive,<br>Hershey PA, 17033</p>
+                  </li> 
+                      <li><p>+1 717 439 4882</p>
+                      </li>
+                      <li><p>deluceart@gmail.com</p>
+                      </li>
+                 </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <ul class="contact">
+                    <span>Site Pages</span>    
+                    <li><a href="../index.htm">Home</a>
+                    </li> 
+                    <li><a href="table.htm">Gallery Chart</a>
+                    </li>  
+                    <li><a href="/olist.htm">Print Orders</a>
+                    </li> 
+                    <li><a href="ulist.htm">Painting Orders </a>
+                    </li>
+                    <li><a href="about.htm">About</a>
+					</li>
+                    <li><a href="form.htm">Contact</a>
+                    </li>
+                </ul>
+            </div>
+  	            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+               		<ul class="social">
+               			<span>Social</span>    
+                    	<li><a href="https://www.facebook.com/deluceart/"><i class="fa fa-facebook fa-2x"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/deluceart/"><i class="fa fa-instagram fa-2x"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/deluceart"><i class="fa fa-twitter fa-2x"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/peter-deluce/"><i class="fa fa-linkedin fa-2x"></i></a>
+                        </li>
+                        <li><a href="https://vimeo.com/user34088267"><i class="fa fa-vimeo fa-2x"></i></a>
+                        </li>  
+                 	</ul>
+            	</div>
+       </div>
+    </div>
+    <p style="text-align: center;color: rgba(255,255,255,1);padding-bottom: 0px;margin-bottom: 0px;">Peter DeLuce - DeLuce Art &copy; 2019 <u><i><a href="citations.htm" style="color: rgba(255,255,255,1); ">Web Citations</a></i></u></p>
+</footer>
+</body>
+</html>

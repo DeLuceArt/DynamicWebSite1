@@ -1,0 +1,47 @@
+<form action="mailto:x@y.com?subject=My Preferences">
+    <fieldset>
+        <legend>Contact Information</legend>
+        Given Name...<br>
+        <input type="text" name="gName" id="gName" value=""><br>
+        Middle Name...<br>
+        <input type="text" name="mName" id="mName" value=""><br>
+        Family Name...<br>
+        <input type="text" name="famName" id="famName" value=""><br>
+    </fieldset>
+    <fieldset>
+        <legend>Demographic Information</legend>
+        Gender...<br>
+        <input type="radio" name="gender" id="mFolks" value="M">
+        <label for="mFolks">Male</label><br>
+        <input type="radio" name="gender" id="fFolks" value="F">
+        <label for="fFolks">Female</label><br>
+        <input type="radio" name="gender" id="uFolks" value="U">
+        <label for="uFolks">Unlisted</label><br>
+        Favorite Ice Cream...<br>
+        <input type="checkbox" name="iceCream" id="CM" value="M">
+        <label for="chunk">Chunky Monkey</label><br>
+        <input type="checkbox" name="iceCream" id="PF" value="F">
+        <label for="phish">Phishfood</label><br>
+        <input type="checkbox" name="iceCream" id="CG" value="U">
+        <label for="cherry">Cherry Garcia</label><br>
+        <h3>Age...</h3>
+        <select name="age" multiple>
+            <option value="">How Old are You?</option>
+            <option value="0020">0-20 years</option>
+            <option value="2130">21-30 years</option>
+            <option value="3140">31-40 years</option>
+            <option value="4150">41-50 years</option>
+            <option value="5160">51-60 years</option>
+            <option value="">Old Age</option>
+        </select>
+        <h3>Comments</h3>
+        <textarea name="comments" rows="10" cols="30">Type your ranting and raving and bitching and moaning here.
+        </textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Contact Us</legend>
+        <input type="button" onclick="alert('Hello Planet!')" value="Click Here"><br>
+        <input type="reset" value="Clear Form"><br>
+        <input type="submit" value="Place Order"><br>
+    </fieldset>
+</form>
